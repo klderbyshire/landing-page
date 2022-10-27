@@ -53,21 +53,21 @@ img {
 }
 
 .navbar ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navbar li {
-    margin: 0 15px;
-    font-weight: bold;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
 .navbar a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 .navbar a:hover {
-    color: var(--colour-primary) ;
+  color: var(--colour-primary);
 }
 
 .navbar-brand img {
@@ -76,14 +76,14 @@ img {
 }
 
 .navbar-nav-left {
-    text-transform: uppercase;
-    flex: 1;
-    margin-left: 20px;
+  text-transform: uppercase;
+  flex: 1;
+  margin-left: 20px;
 }
 
 .navbar-nav-right li:first-child a {
-display: flex;
-align-content: center;
+  display: flex;
+  align-content: center;
 }
 
 .navbar-nav-right img {
@@ -91,6 +91,44 @@ align-content: center;
   width: 20px;
   margin-right: 10px;
 }
+
+.navbar-nav-right ls:nth-child(2) {
+  margin: 0 5px;
+}
+
 /* buttons */
 
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  border: 1px #000 solid;
+  border-radius: 50px;
+  padding: 7px 16px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
 
+.btn-dark-outline {
+  border-color: #000;
+  color: #000;
+}
+
+.btn-dark-outline:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.btn-light-outline {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
