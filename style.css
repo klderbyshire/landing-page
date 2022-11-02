@@ -35,6 +35,10 @@ p {
 img {
   max-width: 100%;
 }
+
+section a {
+  color: #fff;
+}
 /* Navbar */
 
 .navbar {
@@ -94,6 +98,17 @@ img {
 
 .navbar-nav-right ls:nth-child(2) {
   margin: 0 5px;
+}
+
+/* Box */
+
+.box {
+  margin-bottom: 30px;
+}
+
+.box-inner {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 /* buttons */
@@ -213,7 +228,7 @@ img {
   }
 }
 
-@media(min-width: 1440px) {
+@media (min-width: 1440px) {
   .box {
     max-width: 1440px;
     margin-right: auto;
